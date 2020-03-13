@@ -1,12 +1,27 @@
 # Huffman-Encoding-Decoding
-This is a project to compress / decompress almost any file, based on the algorithm of Huffman encoding and decoding.
+This is a C++ project to compress / decompress files, based on the algorithm of Huffman encoding and decoding.
 
-To test and run, please download the whole program first and MAKE file on C++ command ($ make).
+# Test and Run
 
-Compress:
+## Prepare
+Please download the whole program first. You can input this script in UNIX shell command:
+```bash
+git clone https://github.com/AndyWangSFU/Huffman-Encoding-Decoding.git
+cd Huffman-Encoding-Decoding
+cd huff
+```
+Then, MAKE file on C++ command 
+```
+make
+```
+## Use
+To compress:
+```
 $ ./huff -c original_file name.huff
+```
 
-Decompress:
+To Decompress:
+```
 $ ./huff -d name.huff original_file
-
+```
 
