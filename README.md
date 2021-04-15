@@ -1,5 +1,5 @@
 # Huffman-Encoding-Decoding
-This is a C++ project to compress / decompress files, based on the algorithm of Huffman encoding and decoding.
+This is a C++ project (From a 2-nd year Data Structure course) to compress / decompress files, based on the algorithm of Huffman encoding and decoding.
 
 # Test and Run
 
